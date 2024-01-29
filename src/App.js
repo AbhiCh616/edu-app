@@ -1,7 +1,8 @@
-import './App.css';
+import "./App.css";
+import Showcase from "./showcase/Showcase";
 
 function App() {
-  return (<p></p>);
+  return Showcase();
 }
 
 export default App;
