@@ -1,7 +1,7 @@
 export default function Card(text) {
   return (
     <div>
-      <p>{text}</p>
+      <p className="text-3xl font-bold underline">{text}</p>
     </div>
   );
 }
